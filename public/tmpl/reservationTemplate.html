@@ -1,0 +1,8 @@
+
+    {{each seats}}
+        <tr>
+            <td>${name || 'Anonymous'}</td>
+            <td>${meal().mealName}</td>
+            <td>${meal().price}</td>                
+        </tr>
+    {{/each}}
