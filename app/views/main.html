@@ -7,7 +7,7 @@
 
 	<!-- Basic Page Needs
   ================================================== -->
-        <meta charset="${_response_encoding}">
+    <meta charset="${_response_encoding}">
 	<title>#{get 'title' /}</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
@@ -56,10 +56,13 @@
 
 	<!-- JS
 	================================================== -->
-	<script src="@{'/public/javascripts/jquery-1.6.4.min.js'}" charset="${_response_encoding}"></script>
+	<script src="@{'/public/javascripts/jquery-1.6.4.min.js'}"></script>
 	<script src="@{'/public/javascripts/tabs.js'}"></script>
-	<script src='@{'/public/javascripts/jquery.tmpl.js'}'></script>
-	<script src='@{'/public/javascripts/knockout-1.2.1.debug.js'}'></script>
+	<script src="@{'/public/javascripts/jquery.tmpl.js'}"></script>
+	<script src="@{'/public/javascripts/knockout-1.2.1.debug.js'}"></script>
+	<script src="@{'/public/javascripts/koExternalTemplateEngine.js'}"></script>
+	
+	<script src="@{'/public/javascripts/stream-view-model.js'}"></script>
 
 <!-- End Document
 ================================================== -->

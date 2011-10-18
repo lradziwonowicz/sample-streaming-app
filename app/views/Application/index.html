@@ -1,4 +1,15 @@
 #{extends 'main.html' /}
-#{set title:'Home' /}
+#{set title:'Stream' /}
 
-#{welcome /}
+<div class="sixteen columns">
+<h2>Messages</h2>
+
+<div data-bind="template: {name: 'messageTemplate', foreach: messages}"></div>
+</div>
+
+
+
+
+
+
+
