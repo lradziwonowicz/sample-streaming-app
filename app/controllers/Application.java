@@ -13,5 +13,7 @@ public class Application extends Controller {
     	System.out.println("Index...");
         render();
     }
+    
+    
 
 }
