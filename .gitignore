@@ -3,5 +3,6 @@ eclipse/
 .settings/
 .classpath
 .project
+conf/.twitter4j.properties
 
 

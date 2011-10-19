@@ -1,8 +1,4 @@
-var messagesArray = [
-	{ text: "Some msg..." },
-	{ text: "Other msg..." },
-	{ text: "Some content..." }
-];
+var messagesArray = [];
 
 
 // Overall viewmodel for this screen, along with initial state
@@ -10,6 +6,8 @@ var viewModel = {
 	messages: ko.observableArray(messagesArray),
 	
 	addMessage: function(msg){
+		if(this.messages().length > 10)
+			this.messages.pop();
 		this.messages.unshift(msg);
 	}
 };
