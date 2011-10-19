@@ -44,7 +44,7 @@ public class MessageCreator extends Job {
 			}
 		};
 
-		
+		// create your own twitter4j.properties in conf folder
 		twitterStream = new TwitterStreamFactory().getInstance();
 		twitterStream.addListener(listener);
 		// sample() method internally creates a thread which manipulates
